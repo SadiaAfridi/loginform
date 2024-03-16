@@ -9,13 +9,20 @@
         {
             background-color: #c2bdbd;
         }
+
+        header
+        {
+            margin-bottom: 10px;
+            text-align: center;
+            
+        }
         .login-form { 
-            border-radius: 5px;
+            border-radius: 3px;
             background-color: rgb(8, 100, 100);
             width: 32%;
             color: white; 
             margin-left: 35%;
-            margin-top: 5%;
+            margin-top: 5px;
             padding-bottom: 35px;      
     }
     .login-form   fieldset
@@ -45,15 +52,25 @@
             margin-top: 20px;
             width: 100%;
         }
+        footer
+        {
+            background-color: #948f8f;
+            padding: 2px;
+            text-align: center;
+            margin-top: 15px;
+        }
     </style>
 </head>
 <body>
-    <div>
-        <form >
-            <div class="login-form">
+    <header>
+        <h1>Login Form</h1>
+    </header>
+    <main>
+        <div class="login-form">
+            <form >
                 <fieldset>
                     <legend>
-                        <p>User login</p>
+                        <p>Sign In to Your Account</p>
                     </legend>
                             <label for="username"><img src="./images/user.png" alt="username"></label>
                             <input type="text" id="username" name="username" placeholder="Username" required >
@@ -67,5 +84,9 @@
             
         </form>
     </div>
+</main>
+<footer>
+  <p>  &copy; 2024 Login Form  | Designed by Sadia Afridi</p>
+</footer>
 </body>
 </html>
