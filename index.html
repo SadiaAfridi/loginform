@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginform</title>
+    <style>
+        /* /* body
+        {
+           
+        }
+        form
+        {
+            background-color: rgb(11, 56, 56);
+            width: 30%;
+            margin-left: 40%;
+            padding: 10px 20px;
+        } */
+        form { 
+            background-color: rgb(11, 56, 56);
+            max-width: 400px;  
+    }
+        fieldset
+    {
+        background-color: rgb(11, 56, 56);
+        border-radius: 5px;
+        padding: 30px;
+        width: 50%; 
+        margin: 0 auto; 
+    }
+        input[type="text"], input[type="password"] {
+            width: 90%;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+      
+   legend
+    {
+    text-align: center;
+    font-size: 1.2em;
+    
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <form >
+            <div>
+                <fieldset>
+                    <legend>
+                        <h1>user login</h1>
+                    </legend>
+                        <div>
+                            <label for="username"> <img src="images/user.png" alt=""></label>
+                            <input type="text" id="username" name="username" placeholder="Username" required >
+                        </div>
+                        <br><br>
+                        <div>
+                            <label for="password"><img src="./images/lock.png" alt=""></label>
+                            <input type="password" id="password" name="password" placeholder="Password" required>
+                        </div>
+                        <br><br>
+                        <div>
+                            <label for="submit"></label>
+                            <input type="submit" id="login" name="login">
+                        </div>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
