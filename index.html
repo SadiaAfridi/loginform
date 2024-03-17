@@ -12,86 +12,76 @@
 
         header
         {
-            margin-bottom: 10px;
             text-align: center;
             
         }
         .login-form { 
-            border-radius: 3px;
+            width: 28%;
+            border-radius: 6px;
             background-color: rgb(8, 100, 100);
-            width: 32%;
             color: white; 
-            margin-left: 35%;
-            margin-top: 5px;
-            padding-bottom: 35px;      
+            margin: 4%  35%;
+            padding: 40px 10px;
     }
     .login-form   fieldset
     {
-        border-radius: 5px;
-        padding: 30px;
-        width: 70%; 
-        margin: 0 auto; 
+        border-radius: 7px;
+        padding:   5px 27px ; 
+        border: none;
     }
     .login-form legend
     {
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     } 
     .login-form input[type="text"], input[type="password"] {
-            width: 90%;
-            padding: 10px 20px;
-            border-radius: 5px;
+            width: 72%;
+            padding: 15px 20px;
+            border-radius: 50px;
             border: 1px solid #ccc;
-            margin-bottom: 10px;
+            margin-bottom: 40px;
         }
         .login-form input[type="submit"]{
-            background-color: #948f8f;
+            width: 85%;
             border: 1px solid #948f8f;
-            padding: 10px 20px;
-            border-radius: 5px;
-            margin-top: 20px;
-            width: 100%;
+            padding: 15px 20px;
+            border-radius: 50px;
+            margin: 5px 23px;
         }
         footer
         {
             background-color: #948f8f;
-            padding: 2px;
+            padding: 2px 5px;
             text-align: center;
-            margin-top: 15px;
         }
     </style>
 </head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
-    <header>
-        <h1>Login Form</h1>
-    </header>
     <main>
         <div class="login-form">
             <form >
                 <fieldset>
-                    <legend>
-                        <p>Sign In to Your Account</p>
-                    </legend>
-                            <!-- <label for="username"><img src="./images/user.png" alt="username"></label>
-                            <input type="text" id="username" name="username" placeholder="Username" required > -->
-                            <label for="username"> <i class="fa fa-user icon"></i></label>
-                            <input type="text" id="username" name="username" placeholder="Username" required >
-                        <br><br>
-                            <!-- <label for="password"><img src="./images/lock.png" alt="password"></label>
-                            <input type="password" id="password" name="password" placeholder="Password" required>   -->
-                            <label for="password"> <i class="fa fa-key icon"></i></label>
-                            <input type="password" id="password" name="password" placeholder="Password" required>  
-                        <br><br>
-                        <label for="submit"></label>
-                        <input type="submit" id="submit" name="submit" value="LOGIN">   
+                    <legend><p>User Login</p></legend>   
+                        <label for="username"> 
+                            <i class="fa fa-user icon"></i>
+                        </label>
+                        <input type="text" id="username" name="username" placeholder="Username" required >
+                    
+                        <br>
+                        <label for="password">
+                            <i class="fa fa-key icon"></i>
+                        </label>
+                        <input type="password" id="password" name="password" placeholder="Password" required>  
+                        <br>
+                        <input type="submit" id="submit" name="submit" value="LOGIN">     
+                        <br><br><br>
                 </fieldset>
-            
         </form>
     </div>
 </main>
 <footer>
-  <p>  &copy; 2024 Login Form  | Designed by Sadia Afridi</p>
+  <p>&copy; 2024 Login Form | Designed by Sadia Afridi</p>
 </footer>
 </body>
 </html>
