@@ -1,0 +1,44 @@
+body
+{
+    background-color: #c2bdbd;
+}
+.login-form 
+{ 
+    width: 28%;
+    border-radius: 6px;
+    background: linear-gradient(129deg, #00292d 50%, #01212e 50%);
+    color: white; 
+    margin: 4%  35%;
+    padding: 40px 10px;
+}
+.login-form fieldset
+{
+border-radius: 7px;
+padding:   5px 27px ; 
+border: none;
+}
+.login-form legend
+{
+text-align: center;
+font-size: 30px;
+} 
+.login-form input[type="text"], input[type="password"] {
+    width: 72%;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+.login-form input[type="submit"]{
+    width: 85%;
+    border: 1px solid #948f8f;
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin: 5px 23px;
+}
+footer
+{
+    background-color: #948f8f;
+    padding: 2px 5px;
+    text-align: center;
+}
